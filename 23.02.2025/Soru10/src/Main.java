@@ -5,7 +5,7 @@ import java.util.Scanner;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //SORU10
+        //SORU 10
        Scanner scanner = new Scanner(System.in);
         String[] kitaplar = new String[5];
         System.out.println("Lütfen 5 kitap ismi giriniz:");
@@ -33,4 +33,3 @@ public class Main {
     }
 }
 
-    
