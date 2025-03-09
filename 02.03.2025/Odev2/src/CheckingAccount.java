@@ -1,4 +1,11 @@
-package PACKAGE_NAME;
+public class CheckingAccount extends BankAccount{
+    public CheckingAccount(String accountHolder, double balance) {
+        super(accountHolder, balance);
+    }
 
-public class CheckingAccount {
+    @Override
+    public void calculateInterest() {
+        System.out.println("Checking accounts do not earn interest.");
+
+    }
 }
