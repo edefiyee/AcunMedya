@@ -1,4 +1,6 @@
-package PACKAGE_NAME;
+public interface Yemek2 {
+    void tat();
+    void bilgileri();
 
-public class Yemek2 {
+
 }

@@ -1,4 +1,11 @@
-package PACKAGE_NAME;
+public class Roman extends Kitap{
+    public Roman(String adi, String yazar) {
+        super(adi, yazar);
+    }
 
-public class Roman {
+    @Override
+    public void turu() {
+        System.out.println("Bu kitap roman türündedir.");
+
+    }
 }

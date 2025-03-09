@@ -1,4 +1,8 @@
-package PACKAGE_NAME;
+public interface Kitap2 {
+    void turu();
+    void KitapBilgileri();
 
-public class Kitap2 {
+
+
+
 }

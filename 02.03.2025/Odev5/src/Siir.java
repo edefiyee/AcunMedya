@@ -1,4 +1,11 @@
-package PACKAGE_NAME;
+public class Siir extends Kitap{
+    public Siir(String adi, String yazar) {
+        super(adi, yazar);
+    }
 
-public class Siir {
+    @Override
+    public void turu() {
+        System.out.println("Bu kitap şiir türündedir.");
+
+    }
 }
